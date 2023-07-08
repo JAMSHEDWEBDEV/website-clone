@@ -69,12 +69,13 @@ nav li {
 
 /* header part style end */
 
-/* about part css start  */
+/* banner part css start  */
 .header_bg_color{
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right,top left;
+
 }
 h2 {
     color: #474747;
@@ -107,5 +108,10 @@ p {
 .banner_image img{
     max-width: 600px;
 }
+
+/* banner part css end  */
+
+/* about part css start  */
+
 
 /* about part css end  */
