@@ -196,9 +196,78 @@ p {
     font-weight: 400;
     line-height: 25px;
 }
-.what_i_do_box{
+
+.what_i_do_box {
     display: flex;
     justify-content: space-between;
 }
 
 /* what I do section css end  */
+
+/* resume section css start  */
+.resumi_summary {
+    margin: 0 200px;
+}
+
+.right_and_left_part {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.right_part {
+    margin-right: 20px;
+}
+
+.right_heading h2,
+.left_heading h2 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.right_title h3,
+.left_title h3 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.right_institute h4,
+.left_institute h4 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+
+.right_description p,
+.left_description p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.Download_btn {
+    text-align: center;
+}
+
+.Download_btn button {
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color:white;
+}
+
+/* resume section css end  */
