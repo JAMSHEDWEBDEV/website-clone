@@ -267,7 +267,78 @@ hr {
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
-    color:white;
+    color: white;
 }
 
 /* resume section css end  */
+
+/* footer part css start  */
+.main_footer {
+    background: #FFF8F3;
+}
+
+.footer {
+    display: flex;
+    padding: 130px 230px;
+}
+
+.foot_headeing h1 {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.foot_description p {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.foot_icon img {
+    margin-right: 10px;
+}
+
+.footer_left {
+    margin-left: 20px;
+}
+
+.input_style {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+input {
+    height: 10px;
+    width: 350px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+textarea {
+    border: none;
+    padding: 15px;
+}
+
+.submit_btn {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.submit_btn button {
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* footer part css end  */
