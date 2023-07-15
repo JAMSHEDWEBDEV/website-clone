@@ -338,7 +338,227 @@ textarea {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-
 }
 
 /* footer part css end  */
+
+
+
+
+          /* responsive section start  */
+
+/* small device responsive code start  */
+@media screen and (max-width: 576px) {
+
+   /* header part responsive start  */
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 30px;
+    }
+    nav>ul{
+        margin-left: 20px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .header_bg_color img{
+        width: 100%;
+    }
+    .primary_btn{
+        margin-bottom: 10px;
+    }
+    /* header part responsive end  */
+
+    /* about part responsive start  */
+.about{
+    margin: 0;
+    padding: 30px;
+}
+.about_address{
+    flex-direction: column;
+}
+.about_address .address{
+    margin-bottom: 25px;
+}
+    /* about part responsive end  */
+    /* what I do part responsive start  */
+.what_i_do{
+    margin: 20px 20px;
+}
+.what_i_do_box{
+    flex-direction: column;
+    align-items: center;
+}
+.box_item{
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+}
+.box_image{
+    margin-top: 40px;
+}
+    /* what I do part responsive end  */
+    /* resumi part responsive start  */
+.resumi_summary{
+    margin: 80px 20px 0;
+}
+.right_and_left_part{
+    flex-direction: column;
+}
+.right_heading h2, .left_heading h2{
+    text-align: center;
+    text-decoration: underline;
+}
+    /* resumi part responsive end  */
+
+    /* footer part responsive start  */
+    .footer{
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .footer_left{
+        margin: 30px 0 0 -30px;
+    }
+    .input_style{
+        margin-left: 30px;
+    }
+    .submit_btn button{
+        margin-left: -50px;
+    }
+    /* footer part responsive end  */
+}
+/* small device responsive code end  */
+
+/* medium device responsive code start  */
+@media screen and (min-width:576px) and (max-width:992px) {
+    /* header part responsive code start  */
+    nav{
+        margin-left: 90px;
+        padding-top: 20px;
+    }
+    nav ul{
+        margin-left: 20px;
+    }
+    .primary_btn{
+        margin-bottom: 10px;
+    }
+    .banner_image img{
+        width:100%;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    /* header part responsive code start  */
+    
+    /* about part responsive code start  */
+.about{
+    margin: 0;
+    padding: 20px;
+}
+.about_address{
+    flex-direction: column;
+}
+.about_address .address{
+    margin-bottom: 25px;
+}
+    /* about part responsive code end  */
+
+    /* what I do part responsive code start  */
+    .what_i_do{
+        margin: 20px 20px;
+    }
+    .what_i_do_box{
+        flex-direction: column;
+        align-items: center;
+    } 
+    .box_item{
+        margin-bottom: 20px;
+        width: 80%;
+        text-align: center;
+    }
+    .box_image{
+        margin-top: 40px;
+    }
+    /* what I do part responsive code  end  */
+
+       /* resumi part responsive start  */
+.resumi_summary{
+    margin: 80px 20px 0;
+}
+.right_and_left_part{
+    flex-direction: column;
+}
+.right_heading h2, .left_heading h2{
+    text-align: center;
+    text-decoration: underline;
+}
+    /* resumi part responsive end  */
+
+      /* footer part responsive start  */
+      .footer{
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .footer_left{
+        margin: 30px 0 0 -30px;
+    }
+    .input_style{
+        margin-left: 30px;
+    }
+    .submit_btn button{
+        margin-left: -50px;
+    }
+    /* footer part responsive end  */
+}
+/* medium device responsive code end  */
+
+
+/* large device responsive code start  */
+@media screen and (min-width:992px) and (max-width:1200px) {
+         /* header part responsive start  */
+   nav{
+    padding-top: 15px;
+   }
+    .primary_btn{
+        margin-bottom: 15px;
+    }
+         /* header part responsive end  */
+         /* about part responsive start  */
+.about{
+    margin: 50px 100px;
+}
+         /* about part responsive end  */
+         /* what I do part responsive start  */
+.what_i_do{
+    margin: 50px 100px;
+}
+.box_item{
+    height: 350px;
+}
+         /* what I do part responsive end  */
+         /* resumi part responsive start  */
+
+ .right_and_left_part{
+    flex-direction: column;
+ }        
+.resumi_summary{
+    margin: 50px 100px;
+}
+.right_heading h2, .left_heading h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+         /* resumi part responsive end  */
+
+
+}
+
+
+/* large device responsive code end  */
+
+          /* responsive section end  */
